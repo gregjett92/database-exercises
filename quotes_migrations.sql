@@ -1,8 +1,8 @@
 CREATE DATABASE IF NOT EXISTS quotes_db;
 
-USE quotes_db;
+USE codeup_test_db;
 
-DROP TABLE IF EXISTS quotes;
+DROP TABLE IF EXISTS albums_migration;
 
 CREATE TABLE IF NOT EXISTS quotes(
      id INT UNSIGNED NOT NULL AUTO_INCREMENT,
