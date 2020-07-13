@@ -39,4 +39,7 @@ SELECT hire_date, COUNT(*) AS employee_count
 FROM employees
 GROUP BY hire_date
 ORDER BY employee_count DESC
-LIMIT 10;
+-- LIMIT 10;
+
+
+SELECT * FROM employees LIMIT 10 OFFSET 5
